@@ -1,0 +1,102 @@
+:root {
+  --meta-background: rgba(227, 235, 245, 0.2);
+  --meta-gradient1: linear-gradient(
+    66deg,
+    rgb(217, 231, 246) 7%,
+    rgb(208, 240, 246) 31%,
+    rgb(208, 217, 243) 69%,
+    rgb(222, 212, 244) 100%
+  );
+  --meta-gradient2: linear-gradient(
+    66deg,
+    rgba(227, 235, 245, 1) 7%,
+    rgba(229, 233, 244, 1) 69%,
+    rgba(234, 229, 244, 1) 100%
+  );
+  --meta-gradient3: linear-gradient(
+    66deg,
+    rgba(210, 224, 242, 1) 7%,
+    rgba(210, 219, 242, 1) 69%,
+    rgba(226, 216, 246, 1) 100%
+  );
+  --nav-border-color: #5555558b;
+}
+
+body {
+  color: rgb(17, 47, 76);
+  /* background-color: #8ec6db; */
+  background: var(--meta-gradient1);
+  font-family: Tahoma;
+  font-size: 16px;
+  min-height: 100vh;
+}
+
+#title,
+#description {
+  text-align: center;
+}
+
+#survey-form {
+  font-weight: 600;
+  background-color: rgba(159, 228, 231, 0.178);
+  border-radius: 10px;
+  padding: 30px;
+  width: 60vw;
+  max-width: 600px;
+  min-width: 280px;
+  margin: 50px auto;
+}
+
+label {
+  display: block;
+  /* margin: 15px auto; */
+}
+
+fieldset {
+  border: 0;
+  padding: 12px 0;
+}
+fieldset:first-of-type {
+  padding-top: 0;
+}
+.input-elem {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 2px 0;
+  height: 2em;
+  padding: 3px;
+  font-size: 16px;
+  border-radius: 7px;
+}
+.text-area {
+  height: 6em;
+}
+.inline {
+  width: unset;
+  height: unset;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+#submit {
+  display: block;
+  font-size: 15px;
+  border-radius: 7px;
+  height: 2em;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#admin-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 50px;
+  /* width: fit-content; */
+  padding: 20px 20px 0px 20px;
+  border-radius: 25px;
+  background-color: #ffffff;
+  color: black;
+  z-index: 99;
+}
