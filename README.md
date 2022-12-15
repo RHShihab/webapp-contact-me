@@ -8,7 +8,7 @@ Section: 1 <br>
 ## Screenshot of the page:
 
 Home page:
-![](media/contact-me-homepage.png)
+![](screenshots/contact-me-homepage.png)
 
 Admin panel:
-![](media/admin-panel.png)
+![](screenshots/admin-panel.png)
